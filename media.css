@@ -1,0 +1,59 @@
+@media screen and (max-width: 767px) {
+  .head-side-box {
+    height: 200px !important;
+    width: 250px !important;
+    position: absolute !important;
+    top: 20% !important;
+    padding: 5px 8px !important;
+  }
+
+  .heading {
+    font-size: 18px !important;
+  }
+
+  .head-text {
+    font-size: 12px !important;
+  }
+
+  .head-right-btn {
+    width: 75px !important;
+    height: 50px !important;
+    padding: 5px 5px !important;
+  }
+
+  .container-1 {
+    flex-direction: column-reverse !important;
+  }
+
+  .container-2 {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    background-image: url(img/app4.jpg) !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .basic-plan {
+    padding: 5px 12px !important;
+    text-align: left !important;
+  }
+
+  .basic-plan h3 {
+    font-size: 22px !important;
+    padding: 12px 18px !important;
+  }
+
+  .premium-plan {
+    padding: 5px 12px !important;
+    text-align: left !important;
+  }
+
+  .premium-plan h3 {
+    font-size: 22px !important;
+    padding: 12px 18px !important;
+  }
+}
