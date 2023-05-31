@@ -20,7 +20,6 @@
 
 <body>
   <header>
-    <!-- <img class="w3-image" src="/img/app.jpg" alt="Image"> -->
     <div class="head-side-box">
       <h3 class="heading"><b>Smart Design</b></h3>
       <hr>
@@ -32,10 +31,29 @@
       </button>
     </div>
 
-    <button class="head-right-btn"><span class="head-text">Take&nbsp;Tour</span>
-      <i class="fa fa-solid fa-chevron-right"></i>
-    </button>
+    <!-- Slider -->
+    <div class="slider">
+      <input type="radio" name="slide" id="slide-1" checked>
+      <input type="radio" name="slide" id="slide-2">
+      <input type="radio" name="slide" id="slide-3">
 
+      <div class="slides">
+        <div class="slide slide-1">
+          <label for="slide-2">
+            <span><i class="fa fa-solid fa-chevron-right"></i></span>
+          </label>
+        </div>
+        <div class="slide slide-2">
+          <label for="slide-3">
+            <span><i class="fa fa-solid fa-chevron-right"></i></span>
+          </label>
+        </div>
+        <div class="slide slide-3">
+          <label for="slide-1">
+            <span><i class="fa fa-solid fa-chevron-right"></i></span>
+          </label>
+        </div>
+      </div>
   </header>
 
   <main>
@@ -62,7 +80,7 @@
       </div>
       <div class="container-1-right">
         <div class="container-1-img">
-          <img class="img-1" src="img/img_app.jpg" alt="image">
+          <img class="img-1" src="img/img/img_app.jpg" alt="image">
         </div>
       </div>
     </div>
@@ -71,7 +89,7 @@
     <!-- Container-2 -->
     <div class="container-2">
       <div class="container-2-left">
-        <img src="img/app5.jpg" alt="image">
+        <img src="img/img/app5.jpg" alt="image">
       </div>
       <div class="container-2-right">
         <p class="heading-1">Clarity</p>
@@ -166,7 +184,9 @@
           <hr>
           <span class="prices">$ 99</span>
           <hr>
-          <button class="btn"><i class="fa fa-sharp fa-solid fa-download"></i>&nbsp;Download</button>
+          <button class="btn">
+            <i class="fa fa-sharp fa-solid fa-download"></i>
+            &nbsp;Download</button>
         </div>
       </div>
     </div>

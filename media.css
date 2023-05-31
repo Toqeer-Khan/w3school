@@ -28,6 +28,34 @@
   .container-2 {
     flex-direction: column !important;
   }
+
+  .pricing-plan {
+    flex-direction: column !important;
+  }
+
+  .basic-plan {
+    width: 100% !important;
+  }
+
+  .basic-title {
+    text-align: center;
+  }
+
+  .basic-plan p {
+    text-align: center;
+  }
+
+  .prices {
+    text-align: center !important;
+  }
+  .btn {
+    width: 100%;
+  }
+
+  .premium-plan {
+    width: 100% !important;
+    align-self: center;
+  }
 }
 
 @media screen and (max-width: 414px) {
